@@ -1,4 +1,4 @@
-## Storybook Boilerplate Project
+## Storybook Boilerplate
 
 [![Live demo](https://img.shields.io/badge/Live%20Demo-%20Storybook-brightgreen.svg)](https://sm-react.github.io/storybook-boilerplate)
 
@@ -20,7 +20,7 @@ It contains the *fully-charged* setup of the Storybook with **pre-installed plug
 
 ### Features
 
-Since we are now at the starting point, we mark with [<img src="doc/msm.png" alt="Milestone" width="22">](#roadmap) icon features that will be implemented in the near future. See our further plans in the [roadmap](#roadmap) section.
+We mark with [<img src="doc/msm.png" alt="Milestone" width="22">](#roadmap) icon features that not implemented yet. See our further plans in the [roadmap](#roadmap) section.
 
 - **React Storybook Addons**:
 
@@ -228,30 +228,6 @@ It will find `tests` folder within `src` and run them once.
 #### [<img src="doc/npm-status.png" align="right" class="logo" width="764" title="run status"/>](https://raw.githubusercontent.com/sm-react/react-theming/master/doc/npm-status.png)
 
 </details>
-
----
-
-### FAQ
-
---
->**[1]** I'm not going to create a themable app. Will I find something useful in this boilerplate project?
-
-<sub>Yes! You still have a powerful dev environment with React Storybook addons, testing and workflow features.</sub>
-
---
->**[2]** I'm not going to use Material-UI (any other tool) in my app. Will I find something usefull in this boilerplate project?
-
-<sub>Yes! You still have a powerful dev environment with React Storybook addons, testing and workflow features.</sub>
-
---
->**[3]** I'd like to see my [favorite tool](https://github.com/facebook/react/wiki/Complementary-Tools) in this project.
-
-<sub>Create an [issue](/../../issues) with your suggestion. We'll be glad to discuss it and we love adding new features!</sub>
-
---
->**[4]** What if I need some other package in my project?
-
-<sub>Just install it via `npm` or `yarn`. Since this project does not have any hidden configurations, you are free to continue to work with it as you normally would.</sub>
 
 ---
 
