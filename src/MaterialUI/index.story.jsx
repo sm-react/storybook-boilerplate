@@ -1,8 +1,8 @@
 /* eslint-disable import/no-extraneous-dependencies */
 
 import React from 'react';
-import { storiesOf } from '@kadira/storybook';
-import { setOptions } from '@kadira/storybook-addon-options';
+import { storiesOf } from '@storybook/react';
+import { setOptions } from '@storybook/addon-options';
 import { muiTheme } from 'storybook-addon-material-ui';
 
 import Components from './ComponentsExample';

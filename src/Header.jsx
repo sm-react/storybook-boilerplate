@@ -1,9 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import logo from './logo.svg';
 
 const propTypes = {
-    title: React.PropTypes.string,
-    subtitle: React.PropTypes.string,
+    title: PropTypes.string,
+    subtitle: PropTypes.string,
 };
 
 const defaultProps = {
@@ -12,7 +13,7 @@ const defaultProps = {
 };
 
 const contextTypes = {
-    muiTheme: React.PropTypes.object,
+    muiTheme: PropTypes.object,
 };
 
 class Header extends React.Component {

@@ -8,8 +8,8 @@ import setCSS from './.themes/setCSS';
 /*
 
 const propTypes = {
-    title: React.PropTypes.string,
-    subtitle: React.PropTypes.string,
+    title: PropTypes.string,
+    subtitle: PropTypes.string,
 };
 
 const defaultProps = {
@@ -18,7 +18,7 @@ const defaultProps = {
 };
 
 const contextTypes = {
-    muiTheme: React.PropTypes.object,
+    muiTheme: PropTypes.object,
 };
 */
 

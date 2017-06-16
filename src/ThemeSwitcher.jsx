@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import ThemeProvider from 'react-theme-provider';
 import setCSS from './.themes/setCSS';
 
@@ -9,8 +10,8 @@ reqThemes.keys().forEach((filename) => {
 });
 
 const propTypes = {
-    themes: React.PropTypes.array.isRequired,
-    children: React.PropTypes.element,
+    themes: PropTypes.array.isRequired,
+    children: PropTypes.element,
 };
 
 const defaultProps = {

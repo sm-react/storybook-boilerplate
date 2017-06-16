@@ -1,8 +1,9 @@
 /* eslint-disable import/no-extraneous-dependencies */
 
 import React from 'react';
-import { storiesOf } from '@kadira/storybook';
-import { setOptions } from '@kadira/storybook-addon-options';
+import PropTypes from 'prop-types';
+import { storiesOf } from '@storybook/react';
+import { setOptions } from '@storybook/addon-options';
 
 import ThemeSwitcher from './ThemeSwitcher';
 import App from './App';
@@ -72,7 +73,7 @@ function PlainHTML({ themes, themeInd, override }) {
 }
 
 PlainHTML.propTypes = {
-    themes: React.PropTypes.bool,
-    themeInd: React.PropTypes.bool,
-    override: React.PropTypes.bool,
+    themes: PropTypes.bool,
+    themeInd: PropTypes.bool,
+    override: PropTypes.bool,
 };
